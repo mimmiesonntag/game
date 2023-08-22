@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Center</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="header">
+        <h1>Game Center</h1>
+    </div>
+    <div class="container">
+        <button onclick="startCapitalGame()">Capital Questions</button>
+        <button onclick="startHangmanGame()">Hangman</button>
+    </div>
+
+    <script>
+        function startCapitalGame() {
+            // Redirect to the Capital Questions game page
+            window.location.href = "capital-quiz.html";
+        }
+
+        function startHangmanGame() {
+            // Redirect to the Hangman game page
+            window.location.href = "hangman.html";
+        }
+    </script>
+</body>
+</html>

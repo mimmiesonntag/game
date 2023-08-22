@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capital Quiz</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="header">
+        <h1>Capital Quiz</h1>
+    </div>
+    <div class="container">
+        <div class="question">
+            <div class="question-text">What is the capital of <span id="countryName"></span>?</div>
+            <div class="answer-options">
+                <!-- Answer options will be populated dynamically using JavaScript -->
+            </div>
+        </div>
+        <div class="result" id="result"></div>
+        <button onclick="nextQuestion()">Next Question</button>
+    </div>
+
+    <script src="capital-quiz.js"></script>
+    <script src="countries.js"></script>
+</body>
+</html>
